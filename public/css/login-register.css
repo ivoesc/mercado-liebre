@@ -1,0 +1,70 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Roboto";
+}
+
+main form {
+    display: flex;
+    flex-direction: column;
+    margin-top: 40px;
+    margin-bottom: 50px;
+    margin-left: 20px;
+    margin-right: 20px;
+    text-align: left;
+}
+
+/* LOGIN */
+
+.contenedor-input {
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background: white;
+    border-radius: 10px;
+    padding: 10px;
+    height: 40px;
+}
+
+.input-bar {
+    border: none;
+    background: none;
+    outline: none;
+    width: 100%;
+}
+
+.contenedor-input-boton {
+    width: 100%;
+    margin-top: 10px;
+    border-radius: 10px;
+    padding: 10px;
+    height: 40px;
+    background-color: #03264C;
+    text-align: center;
+}
+
+.input-bar-boton {
+    border: none;
+    background: none;
+    outline: none;
+    color: white;
+    font-family: "Roboto";
+}
+
+button {
+    width: 100%;
+}
+
+/* REGISTER */
+
+.text-register {
+    font-size: 18px;
+    text-align: left;
+    font-weight: bold;
+}
+
+.foto-upload {
+    margin-bottom: 10px;
+}

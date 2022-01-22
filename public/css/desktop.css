@@ -1,0 +1,56 @@
+@media (min-width: 769px) {
+    .main-navbar {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .burger-menu {
+        display: none;
+    }
+
+    .hidden {
+        display: none;
+    }
+
+    article {
+        box-shadow: 0px 0px 10px rgb(100, 100, 100);
+        padding-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    .copy-header {
+        max-width: 350px;
+    }
+
+    main section article {
+        width: 20%;
+        margin: 10px;
+    }
+
+    .main-header-top-bar {
+        justify-content: space-between;
+        width: 66%;
+    }
+    
+    .contendeor-logo-busqueda-cuotas {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        margin-bottom: 35px;
+    }
+
+    /* LOGIN */
+
+    /* .contenedor-input {
+        width: 40%;
+    }
+
+    .contenedor-input-boton {
+        width: 40%;
+    }*/
+
+    main form {
+        margin-left: 200px;
+        margin-right: 200px;
+    }
+}
