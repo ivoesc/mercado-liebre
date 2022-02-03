@@ -45,6 +45,10 @@ main form {
     text-align: center;
 }
 
+.contenedor-input-boton:hover {
+    background-color: #0022AA;
+}
+
 .input-bar-boton {
     border: none;
     background: none;
@@ -55,6 +59,11 @@ main form {
 
 button {
     width: 100%;
+}
+
+.footer-login {
+    position: absolute;
+    bottom: 0;
 }
 
 /* REGISTER */
